@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Set up environment variables
+export SPRING_PROFILES_ACTIVE=prod
+export SERVER_PORT=8080
+
+# Start the Spring Boot application
+cd {{pkg.path}}/lib
+java -jar spring-boot-hello-world-example.jar

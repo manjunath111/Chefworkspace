@@ -1,0 +1,95 @@
+{
+  "revision_id": "f3086c74dd544e1d55553b2a6efcefd33e0e364a72931b14fd36862c94c04a95",
+  "name": "ad-setup",
+  "run_list": [
+    "recipe[ad-setup::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "ad-setup": {
+      "version": "0.1.0",
+      "identifier": "46b96ad7a257361059215294c92a610b9aca1adb",
+      "dotted_decimal_identifier": "19907116905158454.4601599281645866.106702469470939",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": "https://github.com/manjunath111/myworkspace.git",
+        "revision": "7d43688fa30bd109c9a39591f369485c004e2b39",
+        "working_tree_clean": false,
+        "published": true,
+        "synchronized_remote_branches": [
+          "origin/HEAD -> origin/main",
+          "origin/main"
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    },
+    "chef-sugar": {
+      "version": "5.1.12",
+      "identifier": "c8884213034b8c9c91f33960b16287b98006df81",
+      "dotted_decimal_identifier": "56444812710333324.44070570192580962.149230786633601",
+      "cache_key": "chef-sugar-5.1.12-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/chef-sugar/versions/5.1.12/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/chef-sugar/versions/5.1.12/download",
+        "version": "5.1.12"
+      }
+    },
+    "windows": {
+      "version": "7.0.2",
+      "identifier": "d30610e83214a12feb3f8c2fe67d24ff7f42fa8e",
+      "dotted_decimal_identifier": "59397889770788001.13487982072817277.40679770356366",
+      "cache_key": "windows-7.0.2-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/windows/versions/7.0.2/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/windows/versions/7.0.2/download",
+        "version": "7.0.2"
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "ad-setup",
+        ">= 0.0.0"
+      ],
+      [
+        "chef-sugar",
+        "= 5.1.12"
+      ],
+      [
+        "windows",
+        "= 7.0.2"
+      ]
+    ],
+    "dependencies": {
+      "ad-setup (0.1.0)": [
+        [
+          "windows",
+          ">= 0.0.0"
+        ],
+        [
+          "chef-sugar",
+          ">= 0.0.0"
+        ]
+      ],
+      "chef-sugar (5.1.12)": [
+
+      ],
+      "windows (7.0.2)": [
+
+      ]
+    }
+  }
+}

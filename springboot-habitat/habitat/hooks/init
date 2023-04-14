@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Install the JRE dependency
+hab pkg install core/jre9
+
+# Create a user to run the application
+useradd myapp
+
+# Set permissions for the application directory
+chown -R myapp:myapp {{pkg.path}}
