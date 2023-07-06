@@ -58,7 +58,7 @@ The following is the minimum requirements for ensuring this solution will work.
 ## Clone the Git Repository
 
 ```bash
-~ git clone https://github.com/aws-samples/jenkins-cloudformation-deployment-example.git
+~ git clone https://github.com/manjunath111/Chefworkspace/jenkins-cloudformation-deployment-example.git
 ```
 
 ## Security Considerations
