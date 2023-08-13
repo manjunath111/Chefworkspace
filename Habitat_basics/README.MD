@@ -1,4 +1,4 @@
-# Habitat Quick Start Guide
+# Habitat Quick Start Guide 
 
 Welcome to the Habitat Quick Start Guide! This guide will walk you through the process of using Habitat, an open-source project by Chef, that enables you to package your applications and manage their configuration and behavior seamlessly.
 
