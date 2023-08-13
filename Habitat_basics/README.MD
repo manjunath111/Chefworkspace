@@ -52,7 +52,9 @@ cd hab-two-tier
 Build the Habitat packages for the web application and load balancer using the Habitat Studio.
 
 hab studio enter
+
 build haproxy
+
 build webapp
 
 5. Run the Web Application
